@@ -1,2 +1,15 @@
 # kspray
-A utility for password spraying using kerberos from an untrusted/non-domain joined Kali linux host. Useful for user and KDC/DC enumeration as well.
+kspray is useful on untrusted/non-domain joined Kali host to perform:
+- Password spraying using kerberos
+- DC/KDC enumeration (KDCs are ranomly selected for each authentication attempt)
+- User enumeration (Positivly identifies users if you didn't already know them)
+
+# Requirements
+- Must run as root
+- kinit (apt-get install krb5-user)
+
+# Usage
+./kspray.sh [DOMAIN] [usernames.txt] [password] [NIC] [# of attempts before mac change]
+
+# Example
+./kspray.sh CORP.NET users.txt Spring2018 eth0 5
