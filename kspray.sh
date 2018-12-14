@@ -167,7 +167,7 @@ while read USERNAME; do
 	let "MACADDRUSEDCOUNT+=1"
 
 	if [[ $MACADDRUSEDCOUNT == $ATTEMPTS ]]; then
-		echo -e "$BRITEGREEN Chaging MAC Address..."
+		echo -e "$BRITEGREEN Changing MAC Address..."
 		IFDOWN=$(ifdown $NIC 2>&1)
 		MACCHANGER=$(macchanger -r $NIC 2>&1)
 		IFUP=$(ifup $NIC 2>&1)
