@@ -9,7 +9,7 @@ kspray is useful on untrusted/non-domain joined Kali host to perform:
 - kinit (apt-get install krb5-user)
 
 # Usage
-./kspray.sh [DOMAIN] [usernames.txt] [password] [NIC] [# of attempts before mac change]
+./kspray.sh [DOMAIN] [usernames.txt] [password]
 
 # Example
-./kspray.sh CORP.NET users.txt Spring2018 eth0 5
+./kspray.sh CORP.NET users.txt Spring2018
