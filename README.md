@@ -16,3 +16,4 @@ kspray is useful on untrusted/non-domain joined Kali host to perform:
 
 # Demonstration Video
 https://youtu.be/qIHhLfgTl0A
+{% include youtubePlayer.html id="qIHhLfgTl0A" %}
