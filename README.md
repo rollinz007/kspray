@@ -13,3 +13,6 @@ kspray is useful on untrusted/non-domain joined Kali host to perform:
 
 # Example
 ./kspray.sh CORP.NET users.txt Spring2018
+
+# Demonstration Video
+https://youtu.be/qIHhLfgTl0A
