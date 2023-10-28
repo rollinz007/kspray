@@ -6,7 +6,7 @@ kspray is useful on untrusted/non-domain joined Kali host to perform:
 
 # Requirements
 - Must run as root
-- kinit (apt-get install krb5-user)
+- kinit (apt install krb5-user)
 
 # Usage
 ./kspray.sh [DOMAIN] [usernames.txt] [password]
